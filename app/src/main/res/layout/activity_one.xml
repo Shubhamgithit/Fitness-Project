@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="1dp"
+    tools:context=".One"
+    android:background="@drawable/onediet"
+    android:id="@+id/heading"
+    >
+    <TextView
+        android:id="@+id/text"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAY-1"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textStyle="bold|italic"
+        android:textSize="45dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Breakfast: One bowl of watermelon/kiwi or an apple/pomegranate"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Lunch: One bowl of papaya or  muskmelon"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Evening Snack: One glass of coconut water
+"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Dinner: One guava/ orange or a bowl of berries (strawberries, litchi)
+"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Bed-time snacks: One bowl of watermelon/grapes"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+
+</LinearLayout>

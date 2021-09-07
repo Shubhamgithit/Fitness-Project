@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="1dp"
+    tools:context=".Two"
+    android:background="@drawable/threediet"
+    android:id="@+id/heading"
+    >
+    <TextView
+        android:id="@+id/text"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAY-3"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/material_on_primary_emphasis_medium"
+        android:textStyle="bold|italic"
+        android:textSize="40dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Breakfast: One bowl of watermelon/ or an apple or about half a pineapple"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Lunch: One large bowl of cabbage soup"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Evening Snack: 2-3 medium sized cherry tomatoes"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Dinner: One cup broccoli"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Bed-time snacks: One bowl of cucumber/ carrots
+"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+
+</LinearLayout>

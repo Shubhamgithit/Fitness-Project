@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="1dp"
+    tools:context=".Six"
+    android:background="@drawable/sixdiet"
+    android:id="@+id/heading"
+    >
+    <TextView
+        android:id="@+id/text"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAY-6"
+        android:textColor="@color/olive"
+        android:textStyle="bold|italic"
+        android:textSize="45dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Breakfast: One bowl of Brussels sprouts or cucumber"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Lunch: 250 gm of meat of your choice/ vegetarian substitute"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:text="Evening Snack: Nothing"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Dinner: A bowl of Cabbage soup"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Bed-time snacks: Nothing"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+
+</LinearLayout>

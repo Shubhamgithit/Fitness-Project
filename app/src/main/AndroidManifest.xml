@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stayfit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".myplan"></activity>
+        <activity android:name=".Ratingus" />
+        <activity android:name=".feedback" />
+        <activity android:name=".weightskip" />
+        <activity android:name=".weightkettle" />
+        <activity android:name=".sprintweight" />
+        <activity android:name=".weightjump" />
+        <activity android:name=".weightfrog" />
+        <activity android:name=".weightburp" />
+        <activity android:name=".homesitup" />
+        <activity android:name=".hometricep" />
+        <activity android:name=".homeglu" />
+        <activity android:name=".homelung" />
+        <activity android:name=".homesqu" />
+        <activity android:name=".homepushups" />
+        <activity android:name=".seated_cable" />
+        <activity android:name=".bentover_rolls" />
+        <activity android:name=".invertedr" />
+        <activity android:name=".chest_row" />
+        <activity android:name=".dumbellsingle_arm" />
+        <activity android:name=".renegade" />
+        <activity android:name=".suspension_bicep" />
+        <activity android:name=".diamond" />
+        <activity android:name=".chinup" />
+        <activity android:name=".cgcurl" />
+        <activity android:name=".tricep" />
+        <activity android:name=".hcurl" />
+        <activity android:name=".barbellht" />
+        <activity android:name=".walkingl" />
+        <activity android:name=".bodyweightcalf" />
+        <activity android:name=".legp" />
+        <activity android:name=".dumbellup" />
+        <activity android:name=".fsqua" />
+        <activity android:name=".dips123" />
+        <activity android:name=".bbpress" />
+        <activity android:name=".idbpress" />
+        <activity android:name=".suspenpusups" />
+        <activity android:name=".pushupss" />
+        <activity android:name=".ccover" />
+        <activity android:name=".barshrug" />
+        <activity android:name=".lrasie" />
+        <activity android:name=".bentover" />
+        <activity android:name=".Fraise123" />
+        <activity android:name=".Spress_descrip" />
+        <activity android:name=".description_shou" />
+        <activity android:name=".BS" />
+        <activity android:name=".LR" />
+        <activity android:name=".BOS" />
+        <activity android:name=".FR" />
+        <activity android:name=".SP" />
+        <activity android:name=".osp" />
+        <activity android:name=".Six" />
+        <activity android:name=".Five" />
+        <activity android:name=".Four" />
+        <activity android:name=".Three" />
+        <activity android:name=".Two" />
+        <activity android:name=".One" />
+        <activity android:name=".Back" />
+        <activity android:name=".Legs" />
+        <activity android:name=".Arms" />
+        <activity android:name=".Chest" />
+        <activity android:name=".Shoulder" />
+        <activity android:name=".AboutUs_Activity2" />
+        <activity android:name=".HomeWorkout_Activity2" />
+        <activity android:name=".Weightloss_Activity2" />
+        <activity android:name=".Diet_Activity2" />
+        <activity android:name=".Dumbbell_Activity2" />
+        <activity android:name=".Activity2" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

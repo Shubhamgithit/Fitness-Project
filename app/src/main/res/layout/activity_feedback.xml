@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context=".feedback">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:text="sbm.chaudhary23698@gmail.com, akshay.solanki3@gmail.com"
+
+        android:enabled="false"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/subject"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Subject of your feedback!"
+        android:lines="4"
+        android:gravity="start|top"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/message"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:hint="Message feedback!                                            OR                                                                       Send '1' if 'BAD' experience                                                    Send '2' if 'OK' experience                                           Send '3' if 'GOOD' experience                               Send '4' if 'VERY GOOD' experience                        Send '5' if 'EXCELLENT'/'AMAZING' experience"
+        android:lines="8"
+        android:gravity="start|top"/>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="176dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Submit to Us"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="338dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Rate Us"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

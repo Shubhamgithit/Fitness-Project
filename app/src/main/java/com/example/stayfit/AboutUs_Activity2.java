@@ -1,0 +1,52 @@
+package com.example.stayfit;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+
+public class AboutUs_Activity2 extends AppCompatActivity {
+
+
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_about_us_2);
+        Button buttondj=(Button)findViewById(R.id.myemail);
+        buttondj.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(AboutUs_Activity2.this,myplan.class);
+                startActivity(intent);
+            }
+        });
+        Button button45=(Button)findViewById(R.id.button45);
+        button45.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(AboutUs_Activity2.this,feedback.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button3 = (Button) findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent mylink = new Intent(Intent.ACTION_VIEW);
+                mylink.setData(Uri.parse("http://www.instagram.com/tanyakapoor05 "));
+                startActivity(mylink);
+
+
+            }
+        });
+
+    }
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="1dp"
+    tools:context=".Four"
+    android:background="@drawable/fiveimage"
+    android:id="@+id/heading"
+    >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="186dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="DAY-5"
+        android:textColor="@color/red"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"></TextView>
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Breakfast: Three whole tomatoes"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Lunch: 250 gm of meat of your choice with one large tomato"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Evening Snack: Nothing"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Dinner: A bowl of Tomato soup"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Bed-time snacks: Nothing"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+
+</LinearLayout>
